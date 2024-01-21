@@ -18,4 +18,4 @@ jobs:
         toolchain: ${{ env.rust-toolchain }}
         components: rust-src, clippy, rustfmt
     - name: Check code format
-      run: cargo fmt --all -- --check --manifest-path=../project/project1/Cargo.toml
+      run: cargo fmt --all -- --check --manifest-path=../project1/Cargo.toml
